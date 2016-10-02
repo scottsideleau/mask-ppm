@@ -29,8 +29,17 @@ B. View the generated PPM image using command line tools.
     export DISPLAY=:0
     ```
 
-  3. Use the 'display' application to view the image output.
+  3. Use the 'display' application from GraphicsMagick to view the image output.
 
     ```bash
     gm display output.ppm
     ```
+
+C. Vew the generated PPM image using online tools.
+
+  1. Open your favorite web browser (e.g. Google Chrome) and visit 
+  [Netpbm Viewer](http://paulcuth.me.uk/netpbm-viewer).
+
+  2. Drag-and-drop your output file ("output.ppm") into the web browser;
+  specifically, taking care to drop it in the box labeled "Drag netpbm files
+  here."
